@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script lang="javascript">
+        initial = 0;
+        final = 1;
+        auxiliar = 1;
+            for(f=1;f<=10;f++)
+            {
+                document.write(auxiliar + "<br/>");
+                auxiliar = initial + final;
+                initial = final;
+                final = auxiliar;
+            }
+    </script>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script language="javascript">
+        salFix = parseFloat(prompt("Informe seu salário fixo: "))
+        valVendas = parseFloat(prompt("Informe o valor de suas vendas: "))
+
+        if(valVendas>=1500)
+        {
+            com = (1500 * 0.03) + (valVendas - 1500) * 0.05 + salFix;
+            alert("Salário Total: " + com);
+        }
+        else
+        {
+            total = (valVendas * 0.03) + salFix;
+            alert("Salário Total: " + total);
+        }
+        </script>
+    <title>Lista3 ex2</title>
+</head>
+<body>
+    
+</body>
+</html>

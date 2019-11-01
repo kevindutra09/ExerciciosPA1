@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script lang="javascript">
+        num = 25;
+        soma = 0;
+        while(num <= 200){
+            resto = (num % 2);
+            if(resto == 0){
+                document.write("numero " + num + " é par" + "</br>");
+                soma = soma + num
+                num = num + 1;
+            }
+            else{
+                num = num + 1;
+            }
+        }
+        document.write("Total da soma : " + soma)
+    </script>
+</head>
+<body></body>
+</html>

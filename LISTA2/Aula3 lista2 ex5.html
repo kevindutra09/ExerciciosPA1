@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script language="javascript">
+    mat=parseInt(prompt("Número da matrícula:"))
+    hrtrab= parseInt(prompt("Horas Trabalhadas:"))
+    if(hrtrab<=44)
+    {
+        total= hrtrab * 5.20;
+        alert("Valor das horas trabalhadas: " + total.toFixed(2));
+    }
+    else(hrtrab>44)
+    {
+        ht = hrtrab - 44;
+        htd = ht*8.40;
+        htad = htd + 44*5.2;
+        alert("Valor das horas extras: " + htad.toFixed(2));
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
